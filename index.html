@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR SHOP</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="asset/img/jeep.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/hamburger.css">
+    <!-- icon -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- header -->
+    <header class="w-full bg-slate-300 font-primary font-semibold text-slate-600 text-base">
+        <div class="flex justify-between p-4 items-center mx-auto ">
+            <!-- logo -->
+             <a href="">
+                <img src="asset/img/jeep.png" alt="logo.svg" class="w-12 h-12">
+             </a>
+
+             <!-- nav -->
+                <ul class="flex flex-col h-0 overflow-hidden bg-slate-300 w-full left-0 top-[100px] sm:top-[70px] absolute gap-9 transition-all duration-300 navigasi lg:relative lg:flex-row lg:top-0 lg:h-full md:w-[500px]">
+                     <li><a href="" class="hover:text-primary transition-all duration-200 px-3 border-l-2 border-primary lg:px-0 lg:border-none">Home</a></li>
+                     <li><a href="" class="hover:text-primary transition-all duration-200 px-3 border-l-2 border-primary lg:px-0 lg:border-none">Featured</a></li>
+                     <li><a href="" class="hover:text-primary transition-all duration-200 px-3 border-l-2 border-primary lg:px-0 lg:border-none">Products</a></li>
+                     <li><a href="" class="hover:text-primary transition-all duration-200 px-3 border-l-2 border-primary lg:px-0 lg:border-none">About</a></li>
+                     <li><a href="" class="hover:text-primary transition-all duration-200 px-3 border-l-2 border-primary lg:px-0 lg:border-none">Reviews</a></li>
+                </ul>
+                    
+                <div class="block lg:hidden">
+                    <button class="hamburger hamburger--elastic" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+                    
+                <!-- nav mobile triger -->
+                
+                <!-- header registrasion -->
+                <div class="header-btn flex flex-col sm:flex-row gap-4 items-center">
+                    <a href="#" class="py-1 sm:py-2 px-2 sm:px-4 bg-sky-600 rounded text-white hover:bg-opacity-80">Sign Up <i class="ri-login-box-line"></i></a>
+                    <a href="#" class="py-1 sm:py-2 px-2 sm:px-4 bg-sky-600 rounded text-white hover:bg-opacity-80">Sign In <i class="ri-user-3-line"></i></a>
+                </div>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero bg-hero lg:bg-right lg:bg-no-repeat h-screen bg-cover flex items-center">
+        <div class="container sm:px-8 px-4 mx-auto sm:mx-0">
+            <div class="hero-text flex flex-col md:w-[550px] text-center sm:text-left">
+                <h1 class="text-5xl md:leading-snug font-secondary font-bold text-slate-800 mb-4">Beli <span class="text-primary">mobil</span> baru murah terpercaya</h1>
+                <p class="mb-4 text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut exercitationem ipsam deserunt porro blanditiis repellat unde asperiores dolorem natus dolorum?</p>
+                <div class="flex flex-col sm:flex-row gap-6 mx-auto sm:mx-0">
+                    <img src="asset/img/play.png" alt="" class="w-44">
+                    <img src="asset/img/ios.png" alt="" class="w-44">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- featured -->
+     <section class="featured">
+        <div class="container mx-auto px-4 py-12">
+            <div class="ride-text text-center mb-12">
+                <h2 class="uppercase text-2xl font-medium">how it's work</h2>
+                <h3 class="text-4xl font-bold font-secondary">Rent with 3 easy steps</h3>
+            </div>
+
+            <!-- featured flex -->
+            <div class="featured__flex flex flex-wrap justify-evenly gap-12">
+                <div class="box text-center w-72">
+                    <i class="bx bxs-map text-primary text-5xl"></i>
+                    <h3 class="text-2xl font-semibold mb-1">Choose a location</h3>
+                    <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita vero ex possimus fugit magni?</p>
+                </div>
+                <div class="box text-center w-72">
+                    <i class="bx bxs-calendar-check text-primary text-5xl"></i>
+                    <h3 class="text-2xl font-semibold mb-1">Pick Up Date</h3>
+                    <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita vero ex possimus fugit magni?</p>
+                </div>
+                <div class="box text-center w-72">
+                    <i class="bx bx-calendar-star text-primary text-5xl"></i>
+                    <h3 class="text-2xl font-semibold mb-1">Book A car</h3>
+                    <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut expedita vero ex possimus fugit magni?</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- services -->
+     <section class="sevices">
+        <div class="container py-12 px-4 mx-auto">
+            <!-- service text -->
+            <div class="services-text text-center mb-8">
+                <h4 class="uppercase font-normal text-lg mb-3">best services</h4>
+                <h2 class="capitalize text-4xl font-bold font-secondary">explore out top deals<br>from top rated dealers</h2>
+            </div>
+            <!-- services grid -->
+            <div class="services-grid grid grid-cols-1 md:grid-cols-2 md:gap-6 gap-10 lg:grid-cols-3 xl:grid-cols-4">
+                <!-- grid item -->
+                <div class="box-car sm:w-[300px] 2xl:w-[340px] p-3 border border-primary rounded-lg bg-slate-100 mx-auto">
+                    <div class="w-full h-[220px] mx-auto bg-center border-2 mb-2">
+                        <img src="asset/img/car1.jpg" alt="" class="mb-3 w-full h-full object-center">
+                    </div>
+                        <h5 class="font-normal px-2 py-1 border border-primary w-[60px] text-center mb-3 rounded-lg">2017</h5>
+                        <h3 class="font-semibold text-lg">2018 Honda civic</h3>
+                        <h4 class="text-base text-primary font-semibold mb-2">$58500 | $358 <span class="font-normal text-slate-900">/month</span></h4>
+                        <a href="" class="capitalize bg-sky-600 text-white block text-center py-2 rounded-md text-lg hover:bg-primary">rent now</a>
+                </div>
+                <!-- grid item -->
+                <div class="box-car sm:w-[300px] 2xl:w-[340px] p-3 border border-primary rounded-lg bg-slate-100 mx-auto">
+                    <div class="w-full h-[220px] mx-auto bg-center border-2 mb-2">
+                        <img src="asset/img/car2.jpg" alt="" class="mb-3 w-full h-full object-center">
+                    </div>
+                        <h5 class="font-normal px-2 py-1 border border-primary w-[60px] text-center mb-3 rounded-lg">2017</h5>
+                        <h3 class="font-semibold text-lg">2018 Honda civic</h3>
+                        <h4 class="text-base text-primary font-semibold mb-2">$58500 | $358 <span class="font-normal text-slate-900">/month</span></h4>
+                        <a href="" class="capitalize bg-sky-600 text-white block text-center py-2 rounded-md text-lg hover:bg-primary">rent now</a>
+                </div>
+                <!-- grid item -->
+                <div class="box-car sm:w-[300px] 2xl:w-[340px] p-3 border border-primary rounded-lg bg-slate-100 mx-auto">
+                    <div class="w-full h-[220px] mx-auto bg-center border-2 mb-2">
+                        <img src="asset/img/car3.jpg" alt="" class="mb-3 w-full h-full object-center">
+                    </div>
+                        <h5 class="font-normal px-2 py-1 border border-primary w-[60px] text-center mb-3 rounded-lg">2017</h5>
+                        <h3 class="font-semibold text-lg">2018 Honda civic</h3>
+                        <h4 class="text-base text-primary font-semibold mb-2">$58500 | $358 <span class="font-normal text-slate-900">/month</span></h4>
+                        <a href="" class="capitalize bg-sky-600 text-white block text-center py-2 rounded-md text-lg hover:bg-primary">rent now</a>
+                </div>
+                <!-- grid item -->
+                <div class="box-car sm:w-[300px] 2xl:w-[340px] p-3 border border-primary rounded-lg bg-slate-100 mx-auto">
+                    <div class="w-full h-[220px] mx-auto bg-center border-2 mb-2">
+                        <img src="asset/img/car4.jpg" alt="" class="mb-3 w-full h-full object-center">
+                    </div>
+                        <h5 class="font-normal px-2 py-1 border border-primary w-[60px] text-center mb-3 rounded-lg">2017</h5>
+                        <h3 class="font-semibold text-lg">2018 Honda civic</h3>
+                        <h4 class="text-base text-primary font-semibold mb-2">$58500 | $358 <span class="font-normal text-slate-900">/month</span></h4>
+                        <a href="" class="capitalize bg-sky-600 text-white block text-center py-2 rounded-md text-lg hover:bg-primary">rent now</a>
+                </div>
+                <!-- grid item -->
+                <div class="box-car sm:w-[300px] 2xl:w-[340px] p-3 border border-primary rounded-lg bg-slate-100 mx-auto">
+                    <div class="w-full h-[220px] mx-auto bg-center border-2 mb-2">
+                        <img src="asset/img/car5.jpg" alt="" class="mb-3 w-full h-full object-center">
+                    </div>
+                        <h5 class="font-normal px-2 py-1 border border-primary w-[60px] text-center mb-3 rounded-lg">2017</h5>
+                        <h3 class="font-semibold text-lg">2018 Honda civic</h3>
+                        <h4 class="text-base text-primary font-semibold mb-2">$58500 | $358 <span class="font-normal text-slate-900">/month</span></h4>
+                        <a href="" class="capitalize bg-sky-600 text-white block text-center py-2 rounded-md text-lg hover:bg-primary">rent now</a>
+                </div>
+                <!-- grid item -->
+                <div class="box-car sm:w-[300px] 2xl:w-[340px] p-3 border border-primary rounded-lg bg-slate-100 mx-auto">
+                    <div class="w-full h-[220px] mx-auto bg-center border-2 mb-2">
+                        <img src="asset/img/car6.jpg" alt="" class="mb-3 w-full h-full object-center">
+                    </div>
+                        <h5 class="font-normal px-2 py-1 border border-primary w-[60px] text-center mb-3 rounded-lg">2017</h5>
+                        <h3 class="font-semibold text-lg">2018 Honda civic</h3>
+                        <h4 class="text-base text-primary font-semibold mb-2">$58500 | $358 <span class="font-normal text-slate-900">/month</span></h4>
+                        <a href="" class="capitalize bg-sky-600 text-white block text-center py-2 rounded-md text-lg hover:bg-primary">rent now</a>
+                </div>
+            </div>
+        </div>
+     </section>
+    
+     <section class="about py-24">
+        <div class="container mx-auto px-4">
+            <div class="about-heading text-center mb-4  ">
+                <h4 class="uppercase text-xl font-medium">about us</h4>
+                <h3 class="capitalize text-4xl font-bold font-secondary">best customer experience</h3>
+            </div>
+            <div class="about-grid grid grid-cols-1 lg:grid-cols-2 gap-10 items-center  ">
+                <div class="about-img">
+                    <img src="asset/img/about.png">
+                </div>
+                <div class="about-text text-center lg:text-left">
+                    <h3 class="uppercase text-xl font-medium text-primary mb-3">about us</h3>
+                    <p class="mb-3 text-lg font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam atque fugiat ipsa aliquid corporis accusamus molestiae accusantium aperiam culpa molestias sit eveniet dolor iure sint perspiciatis quasi modi qui, perferendis unde, delectus mollitia tempore eligendi?</p>
+                    <p class="mb-3 text-lg font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, ad.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quibusdam.</p>
+                    <a href="" class="capitalize bg-blue-700 text-white block w-36 tracking-wide font-normal text-center py-2 rounded-md text-lg hover:bg-primary mx-auto lg:mx-0">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container mx-auto p-4">
+            <div class="reviews-heading text-center mb-9">
+                <h3 class="text-xl font-medium uppercase mb-3">reviews</h3>
+                <h4 class="text-3xl capitalize font-bold">what our customer say</h4>
+            </div>
+            <div class="reviews-flex flex gap-12 flex-wrap justify-evenly">
+                <div class="box lg:w-[380px] text-center p-4 border-2 border-primary">
+                    <div class="mb-2 rev-img w-20 h-20 rounded-full overflow-hidden border-4 border-primary mx-auto">
+                        <img src="asset/img/rev1.jpg" alt="" class=" w-full h-full object-cover">
+                    </div>
+                    <h2 class="text-lg font-semibold mb-2">Someone Name</h2>
+                    <div class="stars">
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star-half text-primary"></i>
+                    </div>
+                    <p>;Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias totam voluptas inventore dolores expedita voluptatibus!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti iste tempora quia iusto vitae.</p>
+                </div>
+
+                <div class="box lg:w-[380px] text-center p-4 border-2 border-primary">
+                    <div class="mb-2 rev-img w-20 h-20 rounded-full overflow-hidden border-4 border-primary mx-auto">
+                        <img src="asset/img/rev2.jpg" alt="" class=" w-full h-full object-cover">
+                    </div>
+                    <h2 class="text-lg font-semibold mb-2">Someone Name</h2>
+                    <div class="stars">
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star-half text-primary"></i>
+                    </div>
+                    <p>;Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias totam voluptas inventore dolores expedita voluptatibus!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti iste tempora quia iusto vitae.</p>
+                </div>
+
+                <div class="box lg:w-[380px] text-center p-4 border-2 border-primary">
+                    <div class="mb-2 rev-img w-20 h-20 rounded-full overflow-hidden border-4 border-primary mx-auto">
+                        <img src="asset/img/rev3.jpg" alt="" class=" w-full h-full object-cover">
+                    </div>
+                    <h2 class="text-lg font-semibold mb-2">Someone Name</h2>
+                    <div class="stars">
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star text-primary"></i>
+                        <i class="bx bxs-star-half text-primary"></i>
+                    </div>
+                    <p>;Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias totam voluptas inventore dolores expedita voluptatibus!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus deleniti iste tempora quia iusto vitae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer pt-20">
+        <div class="px-8 py-12 mx-auto bg-slate-200">
+            <div class="fooer-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div class="box">
+                    <div class="footer-img w-36 mb-2">
+                        <img src="asset/img/jeep.png" alt="">
+                    </div>
+                    <p class="text-sm mb-2 hover:text-primary">3245 Grant Street Longview TX united kingdom 765378</p>
+                    <p class="text-lg font-medium hover:text-primary">01601348732</p>        
+                    <p class="hover:text-primary mb-2 font-medium">FajarMaulana@Gmail.com</p>
+                    <div class="social-icon flex gap-3 text-xl text-slate-500">
+                        <a href="#" class="hover:text-primary"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="hover:text-primary"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="hover:text-primary"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="hover:text-primary"><i class="bx bxl-youtube"></i></a>
+                        <a href="#" class="hover:text-primary"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <h2 class="mb-2 text-xl font-medium uppercase hover:text-primary">support</h2>
+                    <div class="flex flex-col gap-2">
+                        <a href="" class="text-base text-slate-800 hover:text-primary">contact us</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">about page</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">size guide</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">shopping & returns</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">privacy</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h2 class="mb-2 text-xl font-medium uppercase hover:text-primary">shop</h2>
+                    <div class="flex flex-col gap-2">
+                        <a href="" class="text-base text-slate-800 hover:text-primary">new car</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">second car</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">full discount</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">civic 2019</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">civic 2026</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h2 class="mb-2 text-xl font-medium uppercase hover:text-primary">company</h2>
+                    <div class="flex flex-col gap-2">
+                        <a href="" class="text-base text-slate-800 hover:text-primary">featuerd</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">products</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">about</a>
+                        <a href="" class="text-base text-slate-800 hover:text-primary">reviews</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <script src="asset/js/script.js"></script>
+</body>
+</html>
