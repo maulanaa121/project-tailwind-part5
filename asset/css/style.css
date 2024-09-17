@@ -815,62 +815,6 @@ video {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[ur\] {
-  background-color: ur;
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
-.bg-hero {
-  background-image: url(/asset/img/hero-bg.png);
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\/assets\)\] {
-  background-image: url(/assets);
-}
-
-.bg-\[url\(\/assets\/\)\] {
-  background-image: url(/assets/);
-}
-
-.bg-\[url\(\/assets\/img\)\] {
-  background-image: url(/assets/img);
-}
-
-.bg-\[url\(\/assets\/img\/hero\)\] {
-  background-image: url(/assets/img/hero);
-}
-
-.bg-\[url\(\/assets\/img\/hero-bg\)\] {
-  background-image: url(/assets/img/hero-bg);
-}
-
-.bg-\[url\(\/assets\/img\/hero-bg\.png\)\] {
-  background-image: url(/assets/img/hero-bg.png);
-}
-
-.bg-\[url\(\'\/assets\/img\/hero-bg\.png\'\)\] {
-  background-image: url('/assets/img/hero-bg.png');
-}
-
-.bg-\[url\(\'\/asse\/img\/hero-bg\.png\'\)\] {
-  background-image: url('/asse/img/hero-bg.png');
-}
-
-.bg-\[url\(\'\/asset\/img\/hero-bg\.png\'\)\] {
-  background-image: url('/asset/img/hero-bg.png');
-}
-
 .bg-cover {
   background-size: cover;
 }
