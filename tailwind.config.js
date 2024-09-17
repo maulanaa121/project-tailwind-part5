@@ -7,7 +7,7 @@ module.exports = {
       secondary:'Jost'
     },
     backgroundImage:{
-      hero:'url(./asset/img/hero-bg.png)'
+      hero:'url(/asset/img/hero-bg.png)'
     },
     extend: {
       colors:{
